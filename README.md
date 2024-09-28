@@ -6,9 +6,9 @@ Este projeto realiza uma análise de dados e envolve processos de limpeza de dup
 
 Este projeto foi implementado com as seguintes bibliotecas Python:
 
-pandas: Para manipulação de dados.
-numpy: Para cálculos matemáticos e tratamento de outliers.
-matplotlib e seaborn: Para visualização de dados.
+- pandas: Para manipulação de dados.
+- numpy: Para cálculos matemáticos e tratamento de outliers.
+- matplotlib e seaborn: Para visualização de dados.
 
 # Descrição final das Colunas agrupadas.
 
