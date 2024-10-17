@@ -1,24 +1,62 @@
-# Descrição do Projeto
+# Análise de Cashback Meliuz - Viabilidade de Investimento por Grupos
 
-Este projeto realiza uma análise de dados e envolve processos de limpeza de duplicatas, remoção de valores nulos e tratamento de outliers. O objetivo principal é calcular o lucro e a porcentagem de cashback de cada grupo com base nos dados fornecidos para obter a viabilidade de investimento por grupos.
+## Descrição do Projeto
 
-# Bibliotecas 
+Este projeto realiza uma análise detalhada dos dados de cashback, com foco em determinar a viabilidade de investimento por grupos de usuários. O processo inclui a limpeza de duplicatas, remoção de valores nulos e tratamento de outliers, com o objetivo principal de calcular o lucro e a porcentagem de cashback de cada grupo com base nos dados fornecidos.
 
-Este projeto foi implementado com as seguintes bibliotecas Python:
+A análise final busca identificar o grupo mais lucrativo, levando em consideração o cashback médio e o número de vendas realizadas.
 
-- pandas: Para manipulação de dados.
-- numpy: Para cálculos matemáticos e tratamento de outliers.
-- matplotlib e seaborn: Para visualização de dados.
+## Funcionalidades
 
-# Descrição final das Colunas agrupadas.
+- Limpeza de dados: remoção de duplicatas e tratamento de valores nulos.
+- Tratamento de outliers: utilização de métodos estatísticos para lidar com dados anômalos.
+- Cálculo de métricas como lucro por grupo, número de vendas, comissão e cashback total.
+- Visualização de dados para análise exploratória e comparativa entre grupos.
+- Avaliação da viabilidade de diferentes estratégias de cashback.
 
-- Grupos de Usuários: Identificação dos diferentes grupos de clientes no dataset.
-- Compradores: Número total de compradores em cada grupo.
-- Comissão: Valor total da comissão obtida para cada grupo.
-- Cashback: Total devolvido como cashback para os compradores em cada grupo.
-- Vendas Totais: Total de vendas realizadas em cada grupo.
-- Porcentagem de Cashback: Percentual do valor total das vendas devolvido 
+## Requisitos
 
-# Resultados
+Antes de executar o projeto, é necessário garantir que seu ambiente tenha os seguintes requisitos instalados:
 
-O cashback médio geral é de 5,84%, porém ao segmentarmos os dados em grupos, temos: grupo 1 com 4,16%, grupo 2 com 5,78% e grupo 3 com 7,38%. Outra análise que podemos realizar seria em termos de vendas, com os grupos apresentando os seguintes números: 9.633 vendas no grupo 1, 10.460 no grupo 2 e 10.769 no grupo 3. Por fim, para alcançar o melhor desempenho, é essencial calcular os lucros gerados por cada grupo, levando em consideração o cashback e o número de vendas, representando: R$ 404.715, R$ 344.813 e R$ 251.559, respectivamente. Com esses dados, concluímos que, apesar de o grupo 1 ter um número menor de vendas, a diferença em relação aos outros grupos não é tão significativa então o cashback mais baixo resulta em maior lucratividade, indicando que a taxa de 4,16% de cashback é a mais vantajosa nesse contexto.
+- **Python 3.7+**
+- **Jupyter Notebook**
+- **Bibliotecas Python necessárias**:
+  - Pandas
+  - NumPy
+  - Matplotlib
+  - Seaborn
+  - Scikit-learn (opcional, para análises mais avançadas)
+
+## Descrição da Base de Dados Agrupados
+
+- **Grupos de Usuários**: Identificação dos diferentes grupos de clientes no dataset.
+- **Compradores**: Número total de compradores em cada grupo.
+- **Comissão**: Valor total da comissão obtida para cada grupo.
+- **Cashback**: Total devolvido como cashback para os compradores em cada grupo.
+- **Vendas Totais**: Total de vendas realizadas em cada grupo.
+- **Porcentagem de Cashback**: Percentual do valor total das vendas devolvido como cashback.
+
+## Resultados
+
+A análise revelou os seguintes resultados:
+
+- O cashback médio geral é de **5,84%**, com os seguintes percentuais por grupo:
+  - Grupo 1: **4,16%**
+  - Grupo 2: **5,78%**
+  - Grupo 3: **7,38%**
+  
+- Em termos de vendas, os grupos apresentaram:
+  - Grupo 1: **9.633 vendas**
+  - Grupo 2: **10.460 vendas**
+  - Grupo 3: **10.769 vendas**
+
+- Para determinar a lucratividade de cada grupo, foi considerado o número de vendas e o cashback, resultando nos seguintes lucros:
+  - Grupo 1: **R$ 404.715**
+  - Grupo 2: **R$ 344.813**
+  - Grupo 3: **R$ 251.559**
+
+Conclusão: Apesar de o grupo 1 ter um menor número de vendas em relação aos outros grupos, o cashback mais baixo resultou em maior lucratividade. Assim, a taxa de **4,16% de cashback** é a mais vantajosa, gerando o maior lucro.
+
+## Contato
+
+Se você tiver dúvidas ou sugestões, entre em contato por vitor13muniz09@gmail.com.
